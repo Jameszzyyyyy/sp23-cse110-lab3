@@ -6,13 +6,191 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pomodoro Timer First Brainstorm</title>
+    <title>Team Meeting Minute</title>
+    <link rel="icon" href="https://media.istockphoto.com/id/1157687537/photo/cloud-gaming-service-concept-illustration.jpg?b=1&s=170667a&w=0&k=20&c=TfTS7PWqn5FyVc4-_QAgUjVlwQdUF5ZiUEd4EHPuJN0=">
 </head>
 
 <body>
     <header>
-        <h1>Pomodoro Timer First Brainstorm</h1>
+        <h1>CSE110 Team Meeting Minute</h1>
+        <h2>Weekend Activity survey and talk</h2>
+        <h3>April 12 2023 -- Wednesday</h3>
+
+        <nav>
+            <ul>
+                <li><a href="#Attendence">Attendence List</a></li>
+                <li><a href="#Agenda1">Agenda 1 (<i>Weekend Activity</i>)</a></li> 
+                <li><a href="#Agenda2">Agenda 2 (<i>Dinner</i>)</a></li>
+                <li><a href="#Survey">Survey</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <hr>
+
+    <section>
+        <h2 id="Attendence">Attendence List</h2>
+        
+        <div>
+            <p> <b>In-person</b> Attendance sheet :</p>
+
+            <el>
+                <li>IronMan</li>
+                <li>SpiderMan</li>
+                <li>AntMan</li>
+                <li>Black Panther</li>
+                <li>Vision</li>
+                <li>Scarlet Witch</li>
+                <li>Captain America</li>
+            </el>
+        </div>
+
+        <div>
+            <p> <b>Remote</b> Attendance sheet :</p>
+
+            <el>
+                <li>Thor</li>
+                <li>Hulk</li>
+                <li>Hawkeye</li>
+                <li>Quicksilver</li>
+            </el> 
+        </div>
+
+        <div>
+            <p> <b>Absence</b> sheet :</p>
+
+            <ol>
+                <li>Wasp (Sick)</li>
+                <li>Black Widow (Mission)</li>
+                <li>Captain Marvel (Sick)</li>
+            </ol>  
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="Agenda1">Agenda 1 (<i>Weekend Activity</i>)</h2>
+
+        <h3>Presenter: Captain America</h3>
+
+        <p>According to the survey from last meeting, we have chosen two team activities we can do during weekend:</p>
+
+        <span><strong>Basketball</strong> <br> <strong>Hiking</strong></span>
+
+        <p>After the <em>final</em> vote during the meeting, the team had made the <em>final</em> decision of <i><strong>Basketball</strong></i></p>
+
+        <details>
+            <summary>Tips</summary>
+            <ol>
+                <li>Don't eat too much before playing basketball!!!</li>
+                <li>Wear sports suits, basketball suits would be better.</li>
+            </ol>
+        </details>
+
+        <img
+            src="https://images.unsplash.com/photo-1519861531473-9200262188bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmFza2V0YmFsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+            alt="basketball"
+            width="250"
+        />
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="Agenda2">Agenda 2 (<i>Dinner</i>)</h2>
+
+        <h3>Presenter: IronMan</h3>
+
+        <p>we are going to have a team dinner after the activity this <strong>weekend</strong></p>
+
+        <p>here are some choice of <strong>restaurant</strong></p>
+        <ul>
+            <li><strong><a href="https://www.mannaheavenbbq.com/">Manna BBQ</a></strong> </li>
+            <li><strong><a href="https://redorestaurant.com/">Red O</a></strong></li>
+            <li><strong><a href="http://tacoselgordobc.com/">Taco El Gordo</a></strong></li>
+            <li><strong><a href="https://www.dintaifungusa.com/us/locations/san-diego.html">Din Tai Fung</a></strong></li>
+        </ul>
+
+        <p>Team members need to fill out a survey after meeting to vote for <strong>Dinner</strong></p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="Survey">Survey</h2>
+
+        <p>please let us know if you can attend the <b>weekend team activity</b>, as well as the <b>dinner</b> after that</p>
+
+        <form onsubmit="alert('Submited')">
+            <fieldset>
+                <legend>Attendance Form</legend>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+    
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date"><br><br>
+    
+                <p>Will you be able to attend the <b>team activity</b> this weekend.</p>
+                <input type="radio" id="YesActivity" name="Activity" value="Yes">
+                <label for="YesActivity">Yes</label><br>
+                <input type="radio" id="NoActivity" name="Activity" value="No">
+                <label for="NoActivity">No</label><br><br>
+
+                <p>Please check all that apply. I am available </p>
+                <input type="checkbox" id="d1" name="timeslot" value="all times">
+                <label for="d1">any time during the weekend.</label><br>
+                <input type="checkbox" id="d2" name="timeslot" value="8-10">
+                <label for="d2">Saturday afternoon.</label><br>
+                <input type="checkbox" id="d3" name="timeslot" value="1-3">
+                <label for="d3">Sunday afternoon.</label><br><br>
+
+                <p>Will you be able to attend the <b>dinner</b> after activity this weekend.</p>
+                <input type="radio" id="YesDinner" name="Dinner" value="Yes">
+                <label for="YesDinner">Yes</label><br>
+                <input type="radio" id="NoDinner" name="Dinner" value="No">
+                <label for="NoDinner">No</label><br><br>
+
+                <label for="restaurant">If so, choose your favorite <b>restaurant</b> from the list:</label>
+                <input list="Restaurants" id="restaurant" name="restaurant">
+                <datalist id="Restaurants">
+                  <option value="Manna BBQ">
+                  <option value="Red O">
+                  <option value="Taco El Gordo">
+                  <option value="Din Tai Fung">
+                </datalist><br><br>
+    
+                <p>Do you think we should <b>keep</b> the team weekend activity:</p>   
+                <input type="radio" id="YesKeep" name="Keep" value="Yes">
+                <label for="YesKeep">Yes</label><br>
+                <input type="radio" id="NoKeep" name="Keep" value="No">
+                <label for="NoKeep">No</label><br> <br>
+
+                <p>Do you have any other <b>idea</b> of our team activity next week</p>
+                <label for="nw">Choose one:</label>
+                <select id="nw" name="nw">
+                    <option value="PingPong">Ping Pong</option>
+                    <option value="Soccer">Soccer</option>
+                    <option value="Tennis">Tennis</option>
+                    <option value="Badminton">Badminton</option>
+                    <option value="Others">Others</option>
+                </select>
+                <p>If you selected <b>Others:</b></p>
+                <label for="Others">Your choice:</label>
+                <input type="text" id="Others" name="Others"><br><br>
+
+                <h4>Additional Comments</h4>
+                <textarea id="extra_space" rows="3" cols="50">Please list any questions, suggestions or concerns you have.</textarea> <br><br>
+    
+                <button>Submit</button>
+              </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <p>Author: Ziyou(James) Zhao</p>
+        <p>ziz021@ucsd.edu</p>
+      </footer>
 </body>
 
 </html>
