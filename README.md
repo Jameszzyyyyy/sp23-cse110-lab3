@@ -1,3 +1,3 @@
 # Lab 3
 
-[my website](https://jameszzyyyyy.github.io/Lab2_Starter/)
+[my website](https://jameszzyyyyy.github.io/sp23-cse110-lab3/)
