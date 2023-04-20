@@ -59,7 +59,7 @@ nav{
 
 /*apply styling and text adjustment in the list*/
 .nameList{
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     flex-grow: initial;
     flex-basis: auto;
@@ -134,9 +134,8 @@ section p{
 /*apply survey style*/
 #Survey{
     font-weight: bolder;
-    display:contents;
-    height: fit-content;
-    max-width: fit-content;
+    height:auto;
+    max-width: auto;
     text-align: center;
 }
 
