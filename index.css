@@ -154,7 +154,10 @@ section p{
     font-size: xx-large;
 }
 
-
+#ball{
+    height:10cm;
+    width: fit-content;
+}
 
 
 
